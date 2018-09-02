@@ -1,0 +1,17 @@
+{
+  "name": "tree-viz-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "watchify script.js -o static/bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^16.2.2",
+    "d3": "^5.7.0",
+    "watchify": "^3.11.0"
+  }
+}
